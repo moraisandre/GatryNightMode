@@ -1,0 +1,169 @@
+.promocoes .promocao {
+    background: #3A3A3A !important;
+}
+
+nav, footer {
+    background: #3A3A3A !important;
+}
+
+header {
+    background: #3A3A3A !important;
+    border-bottom: 1px solid rgb(90, 90, 90) !important;
+}
+
+.promocoes h2.blackfriday-aovivo {
+    background: #3A3A3A !important;
+}
+
+.content {
+    background: rgb(36, 36, 36) !important;
+}
+
+.promocoes .informacoes .opcoes a {
+    color: #FF5E99 !important;
+}
+
+.form-search input[type=text] {
+    background: rgb(90, 90, 90) !important;
+}
+
+.carregar-mais {
+    background: #3A3A3A !important;
+}
+
+.promocoes.avaliacao-detalhe .detalhe .tags {
+    background: #3A3A3A !important;
+}
+
+.promocoes .comentarios, .fancybox-inner .comentarios, .usuario-detalhe .comentarios {
+    background: #3A3A3A !important;
+}
+
+.promocoes.avaliacao-detalhe .detalhe .fotos, .promocoes.avaliacao-detalhe .detalhe .avaliacao {
+    background: #3A3A3A !important;
+}
+
+header .compartilhar .btn-compartilhar {
+    background: url(chrome-extension://__MSG_@@extension_id__/images/icone_compartilhar_dark.png) no-repeat center center !important;
+}
+
+header a#link-entrar {
+    background: url(chrome-extension://__MSG_@@extension_id__/images/icone_login_dark.png) no-repeat center center !important;
+    /* background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: 50px 50px !important; */
+}
+
+.form-search {
+    border: 1px solid rgb(116, 116, 116) !important;
+}
+
+footer a {
+    color: #FF5E99 !important;
+}
+
+body, select, input, textarea {
+    color: #eaeaea !important;
+}
+
+nav ul li a {
+    color: #eaeaea !important;
+}
+
+.promocoes h2.blackfriday-aovivo a {
+    color: #eaeaea !important;
+}
+
+.promocoes .informacoes h3 a {
+    color: #eaeaea !important;
+}
+
+.promocoes .informacoes .data_postado {
+    color: #eaeaea !important;
+}
+
+.promocoes .informacoes .opcoes a.link_loja, .promocoes .informacoes .opcoes a.curtidas, .promocoes .informacoes .opcoes a.mais, .promocoes .informacoes .opcoes a.mais:hover, .fancybox-inner .comentarios ul li a.curtidas, .promocoes .comentarios ul li a.curtidas {
+    border: 1px solid rgb(116, 116, 116) !important;
+}
+
+.promocoes .lista-avaliacoes .promocao .usuario .nome_usuario a, .usuario-detalhe .avaliacoes .promocao .usuario .nome_usuario a {
+    color: #eaeaea !important;
+}
+
+.promocoes .lista-avaliacoes .promocao p.tags a, .promocoes.avaliacao-detalhe .detalhe .tags a, .usuario-detalhe .avaliacoes .promocao p.tags a {
+    color: #FF5E99 !important;
+}
+
+.promocoes .promocao .usuario {
+    color: #c7c7c7 !important;
+}
+
+header .compartilhar {
+    border-left: 1px solid rgb(90, 90, 90) !important;
+    border-right: 1px solid rgb(90, 90, 90) !important;
+}
+
+.promocoes .lista-avaliacoes .promocao .link-comentarios, .promocoes .lista-avaliacoes .promocao .numero-comentarios, .usuario-detalhe .avaliacoes .promocao .link-comentarios, .usuario-detalhe .avaliacoes .promocao .numero-comentarios {
+    color: #FF5E99 !important;
+}
+
+.promocoes .comentarios ul li .usuario_link a, .fancybox-inner .comentarios ul li .usuario_link a, .usuario-detalhe .comentarios ul li .comentario-detalhe a  {
+    color: #eaeaea !important;
+}
+
+.promocoes .informacoes .opcoes a.comentar, .promocoes.avaliacao-detalhe .detalhe h3 a, .promocoes.promocao-detalhes h3 a.comentar {
+    background: #FF5E99 !important;
+}
+
+.promocoes .comentarios ul li, .fancybox-inner .comentarios ul li, .usuario-detalhe .comentarios ul li .comentario-detalhe {
+    border-color: rgb(90, 90, 90) !important;
+}
+
+.promocoes .comentarios ul ul, .fancybox-inner .comentarios ul ul {
+    border-left: 3px solid rgb(90, 90, 90) !important;
+}
+
+.promocoes .comentarios ul li a, .fancybox-inner .comentarios ul li a, .fancybox-inner .comentarios ul li a.editar-comentario {
+    color: #FF5E99 !important;
+}
+
+.promocoes .comentarios ul li a, .fancybox-inner .comentarios ul li a, .fancybox-inner .comentarios ul li a.editar-comentario {
+    color: #FF5E99 !important;
+}
+
+.fancybox-skin {
+    background: #3A3A3A !important;
+    color: #eaeaea !important;
+}
+
+.promocoes .comentarios .form-resposta input[type=submit], .fancybox-inner .comentarios .form-resposta input[type=submit], .fancybox-inner .comentarios .box-editar-comentario input[type=submit], .comentarios .box-editar-comentario input[type=submit] {
+    background: #FF5E99 !important;
+}
+
+.promocoes .comentarios .form-resposta textarea, .fancybox-inner .comentarios .form-resposta textarea, .fancybox-inner .comentarios .box-editar-comentario textarea, .comentarios .box-editar-comentario textarea {
+    border: 1px solid rgb(90, 90, 90) !important;
+}
+
+textarea {
+    background-color: rgb(90, 90, 90) !important;
+}
+
+.form-search input[type=submit] {
+    background: #3A3A3A url(../img/lupa.png) no-repeat center center !important;
+}
+
+.carregar-mais-blackfriday {
+    color: #FF5E99 !important;
+}
+
+#box-entrar h2, .box-generico h2, .box-generico h3, .page-generica h2, .page-generica h3 {
+    color: #eaeaea !important;
+}
+
+.obs {
+    color: #c7c7c7 !important;
+}
+
+.input input[type=text], .input input[type=email], .input input[type=password], .input textarea, div.tagsinput {
+    background: rgb(90, 90, 90) !important;
+}
