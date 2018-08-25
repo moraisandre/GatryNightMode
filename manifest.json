@@ -4,20 +4,29 @@
   "name": "Gatry Night Mode",
   "description": "Turn off the Gatry lights!",
   "version": "1.0",
-
+  "omnibox": { "keyword" : "gatry" },
+  "icons": {
+    "16": "icons/gatry_icon16.png",
+    "48": "icons/gatry_icon48.png",
+    "128": "icons/gatry_icon128.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
   "browser_action": {
-    "default_icon": "images/gatry_icon.png",
+    "default_icon": "icons/gatry_icon48.png",
     "default_popup": "popup.html",
     "default_title": "Gatry Night Mode"
   },
   "permissions": ["storage", "tabs"],
-  "content_scripts": [
-    {
-      "matches": ["*://gatry.com/*"],
-      "js": ["jquery.js", "night-mode.js"],
-      "css": ["night-mode.css"]
-    }
-  ],
+  "content_scripts": [{
+    "matches": ["*://gatry.com/*"],
+    "js": ["jquery.js", "night-mode.js"],
+    "css": ["night-mode.css"]
+  }],
   "web_accessible_resources": ["images/*.png"],
-  "content_security_policy" :"script-src 'self' https://www.google.com; object-src 'self'"
+  "content_security_policy": "script-src 'self' https://www.google.com; object-src 'self'"
 }
