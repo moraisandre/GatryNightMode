@@ -12,7 +12,7 @@
   },
   "background": {
     "scripts": [
-      "background.js"
+      "js/background.js"
     ],
     "persistent": false
   },
@@ -24,8 +24,8 @@
   "permissions": ["storage", "tabs"],
   "content_scripts": [{
     "matches": ["*://gatry.com/*"],
-    "js": ["jquery.js", "night-mode.js"],
-    "css": ["night-mode.css"]
+    "js": ["js/jquery.js", "js/night-mode.js"],
+    "css": ["css/night-mode.css"]
   }],
   "web_accessible_resources": ["images/*.png"],
   "content_security_policy": "script-src 'self' https://www.google.com; object-src 'self'"
