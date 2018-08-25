@@ -1,12 +1,5 @@
 // settings.js
 
-chrome.omnibox.onInputEntered.addListener(function(text) {
-  // Encode user input for special characters , / ? : @ & = + $ #
-  var newURL = 'https://gatry.com/promocoes?q=' + encodeURIComponent(text);
-  console.log(newURL);
-  chrome.tabs.create({ url: newURL });
-});
-
 window.onload = function() {
   //Clear storage
   // chrome.storage.sync.clear(function() {
