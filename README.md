@@ -7,8 +7,6 @@
 
 <img src="icons/gatry_icon128.png">
 
-<img src="icons/icon128.png">
-
 ## Chrome Store
 
 <a href="https://chrome.google.com/webstore/detail/nsteveballmer/gehfhnephngekdnodedkeoegelcdkjna">
