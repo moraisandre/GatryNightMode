@@ -14,7 +14,7 @@
 </a>
 
 ## Descrição
-    Extensão que apaga as luzes do Gatry, economizando o dinheiro do óculos de sol para navegar no site para gastar com alguma promoção.
+Extensão que apaga as luzes do Gatry, economizando o dinheiro do óculos de sol para navegar no site para gastar com alguma promoção.
 
 ## Capturas de Telas
 <picture>
