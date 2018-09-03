@@ -9,7 +9,7 @@
 
 ## Chrome Store
 
-<a href="https://chrome.google.com/webstore/detail/nsteveballmer/gehfhnephngekdnodedkeoegelcdkjna">
+<a href="https://chrome.google.com/webstore/detail/nsteveballmer/biikdmnllamcecdchhjgiiaakjnmaoma">
 <img src="images/ChromeWebStore.png">
 </a>
 
