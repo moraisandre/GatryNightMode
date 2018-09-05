@@ -9,7 +9,7 @@
 
 ## Chrome Store
 
-<a href="https://chrome.google.com/webstore/detail/nsteveballmer/biikdmnllamcecdchhjgiiaakjnmaoma">
+<a href="https://chrome.google.com/webstore/detail/gatry-night-mode/biikdmnllamcecdchhjgiiaakjnmaoma">
 <img src="images/ChromeWebStore.png">
 </a>
 
