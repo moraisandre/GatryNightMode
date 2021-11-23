@@ -6,9 +6,45 @@ nav, footer {
     background: #3A3A3A !important;
 }
 
-header {
+div.header {
     background: #3A3A3A !important;
-    border-bottom: 1px solid rgb(90, 90, 90) !important;
+    border-bottom: 1px solid #5a5a5a !important;
+}
+
+.top-bar .header .wrapper-header .share {
+    border-right: 1px solid #5a5a5a;
+    border-left: 1px solid #5a5a5a;
+}
+
+.top-bar .menu {
+    border-bottom: 0px !important;
+}
+
+.promotions article, .promotions .load-more {
+    background: #3a3a3a;
+}
+
+.load-more button {
+    background: #3a3a3a;
+}
+
+.promotions article .options .option-other, .promotions article .image {
+    color: #eaeaea;
+}
+
+.promotions article .description h3 a {
+    color: #eaeaea;
+}
+
+.input-group, .tribute-textarea {
+    background: #5a5a5a;
+}
+.form-control, .form-control:focus {
+    background: #5a5a5a;
+}
+
+.search-bar {
+    border: 1px solid rgb(90, 90, 90);
 }
 
 .promocoes h2.blackfriday-aovivo {
@@ -16,10 +52,14 @@ header {
 }
 
 .content {
-    background: rgb(36, 36, 36) !important;
+    background: rgb(58 58 58) !important;
 }
 
 .promocoes .informacoes .opcoes a {
+    color: #FF5E99 !important;
+}
+
+.promotions article .options a, .promotions article .options a, .comments .comment .comment-footer a {
     color: #FF5E99 !important;
 }
 
@@ -43,15 +83,12 @@ header {
     background: #3A3A3A !important;
 }
 
-header .compartilhar .btn-compartilhar {
-    background: url(chrome-extension://__MSG_@@extension_id__/images/icone_compartilhar_dark.png) no-repeat center center !important;
+.top-bar .header .wrapper-header .share a.link-icon {
+    background-image: url(chrome-extension://dgifmigkhfgomhopkfinpboboadogfao/images/icone_adicionar.png);
 }
 
-header a#link-entrar {
-    background: url(chrome-extension://__MSG_@@extension_id__/images/icone_login_dark.png) no-repeat center center !important;
-    /* background-repeat: no-repeat !important;
-    background-position: center center !important;
-    background-size: 50px 50px !important; */
+.top-bar .header .wrapper-header .login a.link-icon {
+    background: url(chrome-extension://dgifmigkhfgomhopkfinpboboadogfao/images/icone_login_dark.png) no-repeat center center !important;
 }
 
 .form-search {
@@ -144,6 +181,10 @@ header .compartilhar {
     border: 1px solid rgb(90, 90, 90) !important;
 }
 
+.promotions article .options .option-store a, .comments .comment .comment-footer a.like {
+    border: 1px solid rgb(90, 90, 90) !important;
+}
+
 textarea {
     background-color: rgb(90, 90, 90) !important;
 }
@@ -177,7 +218,7 @@ a.mais.hidden-xs img {
 }
 
 .promocoes .informacoes .opcoes a.mais {
-    background-image: url(chrome-extension://__MSG_@@extension_id__/images/three-dots-pink.png);
+    background-image: url(chrome-extension://dgifmigkhfgomhopkfinpboboadogfao/images/three-dots-pink.png);
     background-repeat: no-repeat;
     background-position-x: 10px;
     background-position-y: 9px;
@@ -188,5 +229,80 @@ a.mais.hidden-xs img {
 }
 
 body {
-    background-color: #3A3A3A;   
+    background-color: #242424;
+}
+
+#lightcase-content {
+    background-color: #242424 !important;
+}
+
+#lightcase-content h1, #lightcase-content h2, #lightcase-content h3, #lightcase-content h4, #lightcase-content h5, #lightcase-content h6, #lightcase-content p {
+    color: #eaeaea;
+}
+
+.page .no-data, .comments .comment, .comments.comments-user .comment .comment-wrapper {
+    background-color: #3a3a3a !important;
+    border-color: #5a5a5a !important;
+}
+
+.comments .comment .comment-header a {
+    color: #eaeaea;
+}
+
+.btn-blue, .swal2-confirm {
+    background: #FF5E99 !important;
+    border-color: #5a5a5a;
+}
+
+.swal2-cancel {
+    background: #5a5a5a !important;
+    color: #FF5E99 !important;
+}
+
+.comment-control a {
+    color: #FF5E99 !important;
+}
+
+.swal2-popup { 
+    background-color: #242424;
+}
+
+.swal2-content, .swal2-header, .swal2-title {
+    color: #eaeaea;
+}
+
+.comments .comment .comment-answers {
+    border-left: 3px solid #5a5a5a;
+}
+
+.comments .comment .comment-header .comment-time b i {
+    background: #FF5E99;
+}
+
+.comments .comment .comment-header .comment-time b {
+    background: #5d444d;
+}
+
+a:hover, p a {
+    color: #FF5E99;
+}
+
+.ratings article .content .user .info a {
+    color: #eaeaea;
+}
+
+.ratings article .content .user .info .date {
+    color: #eaeaea;
+}
+
+.page h1, .page h2, .page h3 {
+    color: #c8c4c4;
+}
+
+.page .bootstrap-tagsinput, .page input[type=text], .page input[type=email], .page input[type=password], .page textarea, .page input[type=file], .tribute-textarea {
+    background: #5a5a5a;
+}
+
+::selection {
+    background: #5d444d;
 }
