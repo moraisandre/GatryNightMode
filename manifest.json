@@ -3,7 +3,7 @@
 
   "name": "Gatry Night Mode",
   "description": "Turn off the Gatry lights!",
-  "version": "1.2",
+  "version": "1.3",
   "omnibox": { "keyword" : "gatry" },
   "icons": {
     "16": "icons/gatry_icon16.png",
