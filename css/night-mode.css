@@ -45,7 +45,7 @@ div.header {
 
 .search-bar {
     border: 1px solid rgb(90, 90, 90);
-    background: #5a5a5a;
+    background: rgb(90, 90, 90);
 }
 
 .promocoes h2.blackfriday-aovivo {
@@ -85,11 +85,11 @@ div.header {
 }
 
 .top-bar .header .wrapper-header .share a.link-icon {
-    background-image: url(chrome-extension://dgifmigkhfgomhopkfinpboboadogfao/images/icone_adicionar.png);
+    background-image: url(chrome-extension://biikdmnllamcecdchhjgiiaakjnmaoma/images/icone_adicionar.png);
 }
 
 .top-bar .header .wrapper-header .login a.link-icon {
-    background: url(chrome-extension://dgifmigkhfgomhopkfinpboboadogfao/images/icone_login_dark.png) no-repeat center center !important;
+    background: url(chrome-extension://biikdmnllamcecdchhjgiiaakjnmaoma/images/icone_login_dark.png) no-repeat center center !important;
 }
 
 .form-search {
@@ -101,7 +101,7 @@ footer a {
 }
 
 body, select, input, textarea {
-    color: #eaeaea !important;
+    color: #ff0000 !important;
 }
 
 nav ul li a {
@@ -219,7 +219,7 @@ a.mais.hidden-xs img {
 }
 
 .promocoes .informacoes .opcoes a.mais {
-    background-image: url(chrome-extension://dgifmigkhfgomhopkfinpboboadogfao/images/three-dots-pink.png);
+    background-image: url(chrome-extension://biikdmnllamcecdchhjgiiaakjnmaoma/images/three-dots-pink.png);
     background-repeat: no-repeat;
     background-position-x: 10px;
     background-position-y: 9px;
@@ -233,8 +233,12 @@ body {
     background-color: #242424;
 }
 
-#lightcase-content {
+#lightcase-content, .fancybox__content {
     background-color: #242424 !important;
+}
+
+body, select, input, textarea {
+    color: #ffffff !important;
 }
 
 #lightcase-content h1, #lightcase-content h2, #lightcase-content h3, #lightcase-content h4, #lightcase-content h5, #lightcase-content h6, #lightcase-content p {
@@ -246,7 +250,7 @@ body {
     border-color: #5a5a5a !important;
 }
 
-.comments .comment .comment-header a {
+.comments .comment .comment-header a, .comment-content {
     color: #eaeaea;
 }
 
