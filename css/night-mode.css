@@ -264,7 +264,9 @@ body, select, input, textarea {
     color: #FF5E99 !important;
 }
 
-.comment-control a {
+.comment-control a,
+a.p-0.float-left,
+a.p-0 {
     color: #FF5E99 !important;
 }
 
@@ -272,7 +274,10 @@ body, select, input, textarea {
     background-color: #242424;
 }
 
-.swal2-content, .swal2-header, .swal2-title {
+.swal2-content, .swal2-header, .swal2-title,
+.option-other .comment-time,
+.ratings .comment .comment-header a,
+.option-other.ml-auto.d-none.d-sm-block.comment-time {
     color: #eaeaea;
 }
 
@@ -306,6 +311,11 @@ a:hover, p a {
 
 .page .bootstrap-tagsinput, .page input[type=text], .page input[type=email], .page input[type=password], .page textarea, .page input[type=file], .tribute-textarea {
     background: #5a5a5a;
+}
+
+.comment.mb-2 {
+    background: rgb(58, 58, 58);
+    border: 0;
 }
 
 ::selection {
