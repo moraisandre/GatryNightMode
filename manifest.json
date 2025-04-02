@@ -1,30 +1,50 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Gatry Night Mode",
   "description": "Turn off the Gatry lights!",
-  "version": "1.4",
-  "omnibox": { "keyword" : "gatry" },
+  "version": "1.5",
+  "omnibox": {
+    "keyword": "gatry"
+  },
   "icons": {
     "16": "icons/gatry_icon16.png",
     "48": "icons/gatry_icon48.png",
     "128": "icons/gatry_icon128.png"
   },
   "background": {
-    "scripts": [
-      "js/background.js"
-    ],
-    "persistent": false
+    "service_worker": "js/background.js"
   },
-  "browser_action": {
+  "action": {
     "default_icon": "icons/gatry_icon48.png",
     "default_title": "Gatry Night Mode"
   },
-  "permissions": ["storage", "tabs"],
-  "content_scripts": [{
-    "matches": ["*://gatry.com/*"],
-    "js": ["js/replace-css.js"],
-    "all_frames": true
-  }],
-  "web_accessible_resources": ["images/*.png", "css/night-mode.css"],
-  "content_security_policy": "script-src 'self' https://www.google.com; object-src 'self'"
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://gatry.com/*"
+      ],
+      "js": [
+        "js/replace-css.js"
+      ],
+      "all_frames": true
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "images/*.png",
+        "css/night-mode.css"
+      ],
+      "matches": [
+        "*://gatry.com/*"
+      ]
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; script-src-elem 'self' 'unsafe-inline' https://www.google.com;"
+  }
 }
